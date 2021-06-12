@@ -21,17 +21,58 @@ public class FullRecipe extends AppCompatActivity {
         String message2 = intent.getStringExtra(WordListAdapter.WordViewHolder.EXTRA_MESSAGE2);
         if(Integer.parseInt(message2) == 0){
             int[] array = {R.drawable.rice, R.drawable.rice, R.drawable.rice, R.drawable.rice, R.drawable.rice, R.drawable.rice, R.drawable.rice, R.drawable.rice, R.drawable.rice, R.drawable.rice, R.drawable.rice, R.drawable.rice};
+            String[] text = {"Procedure:\n1. Prepare ingredients.\n2. I don't know.",
+                    "Procedure:\n1. Prepare ingredients.\n2. I don't know.",
+                    "Procedure:\n1. Prepare ingredients.\n2. I don't know.",
+                    "Procedure:\n1. Prepare ingredients.\n2. I don't know.",
+                    "Procedure:\n1. Prepare ingredients.\n2. I don't know.",
+                    "Procedure:\n1. Prepare ingredients.\n2. I don't know.",
+                    "Procedure:\n1. Prepare ingredients.\n2. I don't know.",
+                    "Procedure:\n1. Prepare ingredients.\n2. I don't know.",
+                    "Procedure:\n1. Prepare ingredients.\n2. I don't know.",
+                    "Procedure:\n1. Prepare ingredients.\n2. I don't know.",
+                    "Procedure:\n1. Prepare ingredients.\n2. I don't know.",
+                    "Procedure:\n1. Prepare ingredients.\n2. I don't know."
+            };
             mImage.setImageResource(array[Integer.parseInt(message)]);
+            mPosition.setText(text[Integer.parseInt(message)]);
         }
         else if(Integer.parseInt(message2) == 1){
             int[] array = {R.drawable.noodle, R.drawable.noodle, R.drawable.noodle, R.drawable.noodle, R.drawable.noodle, R.drawable.noodle, R.drawable.noodle, R.drawable.noodle, R.drawable.noodle, R.drawable.noodle, R.drawable.noodle, R.drawable.noodle};
+            String[] text = {"Procedure:\n1. Prepare ingredients.\n2. I don't know.",
+                    "Procedure:\n1. Prepare ingredients.\n2. I don't know.",
+                    "Procedure:\n1. Prepare ingredients.\n2. I don't know.",
+                    "Procedure:\n1. Prepare ingredients.\n2. I don't know.",
+                    "Procedure:\n1. Prepare ingredients.\n2. I don't know.",
+                    "Procedure:\n1. Prepare ingredients.\n2. I don't know.",
+                    "Procedure:\n1. Prepare ingredients.\n2. I don't know.",
+                    "Procedure:\n1. Prepare ingredients.\n2. I don't know.",
+                    "Procedure:\n1. Prepare ingredients.\n2. I don't know.",
+                    "Procedure:\n1. Prepare ingredients.\n2. I don't know.",
+                    "Procedure:\n1. Prepare ingredients.\n2. I don't know.",
+                    "Procedure:\n1. Prepare ingredients.\n2. I don't know."
+            };
             mImage.setImageResource(array[Integer.parseInt(message)]);
+            mPosition.setText(text[Integer.parseInt(message)]);
         }
         else if(Integer.parseInt(message2) == 2){
             int[] array = {R.drawable.dessert, R.drawable.dessert, R.drawable.dessert, R.drawable.dessert, R.drawable.dessert, R.drawable.dessert, R.drawable.dessert, R.drawable.dessert, R.drawable.dessert, R.drawable.dessert, R.drawable.dessert, R.drawable.dessert};
+            String[] text = {"Procedure:\n1. Prepare ingredients.\n2. I don't know.",
+                    "Procedure:\n1. Prepare ingredients.\n2. I don't know.",
+                    "Procedure:\n1. Prepare ingredients.\n2. I don't know.",
+                    "Procedure:\n1. Prepare ingredients.\n2. I don't know.",
+                    "Procedure:\n1. Prepare ingredients.\n2. I don't know.",
+                    "Procedure:\n1. Prepare ingredients.\n2. I don't know.",
+                    "Procedure:\n1. Prepare ingredients.\n2. I don't know.",
+                    "Procedure:\n1. Prepare ingredients.\n2. I don't know.",
+                    "Procedure:\n1. Prepare ingredients.\n2. I don't know.",
+                    "Procedure:\n1. Prepare ingredients.\n2. I don't know.",
+                    "Procedure:\n1. Prepare ingredients.\n2. I don't know.",
+                    "Procedure:\n1. Prepare ingredients.\n2. I don't know."
+            };
             mImage.setImageResource(array[Integer.parseInt(message)]);
+            mPosition.setText(text[Integer.parseInt(message)]);
         }
 
-        mPosition.setText("Procedure:\n1. Prepare ingredients.\n2. I don't know.");
     }
 }
