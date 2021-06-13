@@ -18,6 +18,8 @@ public class RiceRecipe extends AppCompatActivity {
         LinkedList<String> mWordList = new LinkedList<String>();
         LinkedList<String> mDetailList = new LinkedList<String>();
         LinkedList<Integer> mPictureList = new LinkedList<>();
+        //這個activity會列出所有飯食的料理
+        //更改料理的名字
         mWordList.add("Chocolate Mint Bars");
         mWordList.add("Blueberry Cupcakes");
         mWordList.add("Fudge Walnut Brownies");
@@ -30,6 +32,7 @@ public class RiceRecipe extends AppCompatActivity {
         mWordList.add("Tiramisu");
         mWordList.add("Carrot Cake");
         mWordList.add("Blueberry Ice Cream");
+        //更改料理的detail
         mDetailList.add("You'll love these if you're a big fan of thin chocolate mint Girl Scout cookies. The dense base layer is a rich fudgy brownie.");
         mDetailList.add("Lemon and blueberry flavors give these cupcakes a great taste. Blueberries or fresh, edible flowers make an easy, pretty decoration.");
         mDetailList.add("These brownies are rich in cocoa, melted chocolate and chocolate chunks.");
@@ -42,6 +45,7 @@ public class RiceRecipe extends AppCompatActivity {
         mDetailList.add("Easy and delicious recipe to make real tiramisu.");
         mDetailList.add("Moist, light, fluffy, and low calorie carrot cake recipe.");
         mDetailList.add("Cool off on a hot day with a big bowl of creamy homemade ice cream. Perfect for entertaining, this five-star recipe makes enough for a crowd.");
+        //更改料理的縮圖
         mPictureList.add(R.drawable.rice);
         mPictureList.add(R.drawable.rice);
         mPictureList.add(R.drawable.rice);

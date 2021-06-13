@@ -19,15 +19,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    public void GotoRice(View view){
+    public void GotoRice(View view){ //進到RiceRecipe裡
         Intent intent = new Intent(this, RiceRecipe.class);
         startActivity(intent);
     }
-    public void GotoNoodle(View view){
+    public void GotoNoodle(View view){ //進到NoodleRecipe裡
         Intent intent = new Intent(this, NoodleRecipe.class);
         startActivity(intent);
     }
-    public void GotoDessert(View view){
+    public void GotoDessert(View view){ //進到DessertRecipe裡
         Intent intent = new Intent(this, DessertRecipe.class);
         startActivity(intent);
     }
