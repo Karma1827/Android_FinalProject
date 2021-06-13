@@ -15,7 +15,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 import java.util.LinkedList;
 
-//這個class是用來產生料理的列表，我多了傳入mMode來控制要顯示哪種類別的列表。
+//這個class是用來產生料理的列表
 //mMode = 0 -> 飯食
 //mMode = 1 -> 麵食
 //mMode = 2 -> 甜點
