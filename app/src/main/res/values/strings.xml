@@ -45,10 +45,23 @@
     <string name="action_search">Search</string>
     <string name="action_info">Information</string>
     <string name="action_favorites">Favorites</string>
+    <string name="action_clock">Clock</string>
 
     <string name="action_search_message">You selected Search.</string>
     <string name="action_info_message">You selected Information.</string>
     <string name="action_favorites_message">You selected Favorites.</string>
+    <string name="action_clock_message">You selected Clock.</string>
+
+    <string name="breakfast_title">It is time to cook breakfast!</string>
+    <string name="breakfast_text">It is 06:30 AM</string>
+    <string name="lunch_title">It is time to cook lunch!</string>
+    <string name="lunch_text">It is 11:30 AM</string>
+    <string name="dinner_title">It is time to cook dinner!</string>
+    <string name="dinner_text">It is 05:30 PM</string>
+    <string name="toast_message">You will be notified</string>
+    <string name="channel_name">Make a cooking notification</string>
+    <string name="channel_desc">Notifies me cook lunch or dinner!</string>
+
 
     <string-array name="rice_recipe">
         <item>
