@@ -1,34 +1,87 @@
 package com.example.finalproject;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
+import androidx.viewpager.widget.ViewPager;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
 
-import java.util.LinkedList;
+import com.google.android.material.tabs.TabLayout;
 
 public class MainActivity extends AppCompatActivity {
+    public static final String EXTRA_MESSAGE = "com.example.finalproject.extra.MESSAGE";
+    private String mOrderMessage;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-    }
+        TabLayout tabLayout = findViewById(R.id.tab_layout);
+        // Set the text for each tab.
+        //tabLayout.addTab(tabLayout.newTab().setText(R.string.tab_label1));
+        tabLayout.addTab(tabLayout.newTab().setText(R.string.tab_label1));
+        tabLayout.addTab(tabLayout.newTab().setText(R.string.tab_label2));
+        tabLayout.addTab(tabLayout.newTab().setText(R.string.tab_label3));
+        tabLayout.addTab(tabLayout.newTab().setText(R.string.tab_label4));
+        tabLayout.addTab(tabLayout.newTab().setText(R.string.tab_label5));
 
 
-    public void GotoRice(View view){ //進到RiceRecipe裡
-        Intent intent = new Intent(this, RiceRecipe.class);
-        startActivity(intent);
+        tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
+
+        final ViewPager viewPager = findViewById(R.id.pager);
+        final PagerAdapter adapter = new PagerAdapter(getSupportFragmentManager(), tabLayout.getTabCount());
+        viewPager.setAdapter(adapter);
+        viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
+        tabLayout.addOnTabSelectedListener( new TabLayout.OnTabSelectedListener() {
+            @Override
+            public void onTabSelected(TabLayout.Tab tab) {
+                viewPager.setCurrentItem(tab.getPosition());
+            }
+
+            @Override
+            public void onTabUnselected(TabLayout.Tab tab) {
+            }
+
+            @Override
+            public void onTabReselected(TabLayout.Tab tab) {
+            }
+        });
     }
-    public void GotoNoodle(View view){ //進到NoodleRecipe裡
-        Intent intent = new Intent(this, NoodleRecipe.class);
-        startActivity(intent);
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_main, menu);
+        return true;
     }
-    public void GotoDessert(View view){ //進到DessertRecipe裡
-        Intent intent = new Intent(this, DessertRecipe.class);
-        startActivity(intent);
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()){
+            /*case R.id.action_order:
+                Intent intent = new Intent(MainActivity.this, OrderActivity.class);
+                intent.putExtra(EXTRA_MESSAGE, mOrderMessage);
+                startActivity(intent);
+                return true;*/
+            case R.id.action_search:
+                displayToast(getString(R.string.action_search_message));
+                return true;
+            case R.id.action_status:
+                displayToast(getString(R.string.action_info_message));
+                return true;
+            case R.id.action_favorites:
+                displayToast(getString(R.string.action_favorites_message));
+                return true;
+            default:
+        }
+        return super.onOptionsItemSelected(item);
     }
+
+    private void displayToast(String string) {
+        Toast.makeText(getApplicationContext(), string, Toast.LENGTH_LONG).show();
+    }
+
 }

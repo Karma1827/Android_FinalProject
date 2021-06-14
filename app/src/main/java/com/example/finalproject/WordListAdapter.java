@@ -3,6 +3,7 @@ package com.example.finalproject;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -23,15 +24,13 @@ import java.util.LinkedList;
 //mMode會一起傳入FullRecipe裡，用來控制要顯示哪一類中第幾個的完整食譜。
 public class WordListAdapter extends RecyclerView.Adapter<WordListAdapter.WordViewHolder>  {
     private final LinkedList<String> mWordList;
-    private final LinkedList<String> mDetailList;
     private final LinkedList<Integer> mPictureList;
     private int mMode = 0;
     private LayoutInflater mInflater;
 
-    public WordListAdapter(Context context, LinkedList<String> wordList, LinkedList<String> detailList, LinkedList<Integer> pictureList, int mode) {
+    public WordListAdapter(Context context, LinkedList<String> wordList, LinkedList<Integer> pictureList, int mode) {
         mInflater = LayoutInflater.from(context);
         this.mWordList = wordList;
-        this.mDetailList = detailList;
         this.mPictureList = pictureList;
         this.mMode = mode;
     }
@@ -46,8 +45,8 @@ public class WordListAdapter extends RecyclerView.Adapter<WordListAdapter.WordVi
     public void onBindViewHolder(WordViewHolder holder, int position) {
         String mCurrent = mWordList.get(position);
         holder.wordItemView.setText(mCurrent);
-        mCurrent = mDetailList.get(position);
-        holder.detailItemView.setText(mCurrent);
+        //mCurrent = mDetailList.get(position);
+       // holder.detailItemView.setText(mCurrent);
         Integer mPicture = mPictureList.get(position);
         holder.pictureItemView.setImageResource(mPicture);
     }
@@ -59,15 +58,13 @@ public class WordListAdapter extends RecyclerView.Adapter<WordListAdapter.WordVi
 
     public class WordViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
         public final TextView wordItemView;
-        public final TextView detailItemView;
         public final ImageView pictureItemView;
         final WordListAdapter mAdapter;
         public static final String EXTRA_MESSAGE = "com.example.android.activity_full_recipe.extra.MESSAGE";
-        public static final String EXTRA_MESSAGE2 = "com.example.android.activity_full_recipe.extra.MESSAGE";
+        public static final String EXTRA_MESSAGE2 = "com.example.android.activity_full_recipe.extra.MESSAGE2";
         public WordViewHolder(View itemView, WordListAdapter adapter) {
             super(itemView);
             wordItemView = itemView.findViewById(R.id.word);
-            detailItemView = itemView.findViewById(R.id.detail);
             pictureItemView = itemView.findViewById(R.id.picture);
             this.mAdapter = adapter;
             itemView.setOnClickListener(this);

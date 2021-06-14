@@ -9,5 +9,782 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
-    <string name="test">Test\n</string>
+
+    <string name="tab_label1">All</string>
+    <string name="tab_label2">Rice</string>
+    <string name="tab_label3">Noodle</string>
+    <string name="tab_label4">Soup</string>
+    <string name="tab_label5">Drink</string>
+
+    <string name="pho_bo">Vietnamese Beef Noodle (越南牛肉河粉)</string>
+
+    <string name="goi_cuon">Vietnamese Spring Roll (Goi Cuon)</string>
+    <string name="goi_cuon_des">Vietnamese Spring Roll is a refreshing appetizer made up of shrimp, pork, thin rice vermicelli noodles, and an assortment of vegetables rolled in rice paper.
+                                They are served at room temperature with a side of peanut dipping sauce or alternatively, Vietnamese fish sauce dipping sauce. </string>
+
+    <string name="com_tam">Vietnamese Broken Rice (越式碎米飯)</string>
+    <string name="nasi_lemak">Malay Coconut Milk Rice (椰醬飯)</string>
+    <string name="hainan_rice">Hainanese Chicken Rice (海南雞飯)</string>
+    <string name="indo_rice">Indonesian Fried Rice (印尼炒飯)</string>
+    <string name="pineapple_rice">Vietnamese Pineapple Fried Rice (越式鳳梨炒飯)</string>
+    <string name="thai_basil_chicken">Thai Basil Chicken Rice (泰式打拋雞飯)</string>
+    <string name="bun_thit_nuong">Vietnamese Pork Vermicelli (越式烤肉米線) </string>
+    <string name="bun_bo_hue">Vietnamese Spicy Beef Noodle (越南順化米線) </string>
+    <string name="mien_ga">Vietnamese Chicken Glass Noodles (越式雞肉粉絲) </string>
+    <string name="bun_rieu">Vietnamese Tomato Noodle (越式紅燒番茄米線) </string>
+    <string name="laksa">Laksa (叻沙)</string>
+    <string name="fried_noodle">PENANG FRIED FLAT NOODLES (炒粿條) </string>
+    <string name="bak_kut_teh">Bak Kut Teh(肉骨茶)</string>
+    <string name="canh_chua">Vietnamese Sweet and Sour Soup (越式酸辣湯) </string>
+    <string name="tom_yum">Tom Yum Soup (泰式冬陰湯)</string>
+    <string name="canh_artiso">Artiso Soup (越式百合花湯) </string>
+    <string name="coffe">Vietnamese Coffee (越南咖啡) </string>
+    <string name="pulled_tea">Pulled Tea (印度拉茶) </string>
+    <string name="milo">Milo (冰美祿) </string>
+
+    <string name="action_search">Search</string>
+    <string name="action_info">Information</string>
+    <string name="action_favorites">Favorites</string>
+
+    <string name="action_search_message">You selected Search.</string>
+    <string name="action_info_message">You selected Information.</string>
+    <string name="action_favorites_message">You selected Favorites.</string>
+
+    <string-array name="rice_recipe">
+        <item>
+             \n  Cơm tấm (越式碎米飯)\n   \n
+            Description:\n A combination of steamy fragrant broken rice with tender pork cutlet, fresh vegetables, egg meatloaf or fried egg, and carrot pickles.\n
+             \n
+            ------------ Ingredients ------------\n
+            For the Pork Chop:\n 4 boneless pork chops\n 2 tbsp oil\n 2-3 cloves garlic (minced)\n 2 tbsp soy sauce\n2 tbsp honey\n 2 tbsp fish sauce\n
+            For the Fish Sauce:\n2 tbsp vinegar\n2 lemons (juiced)\n6 tbsp fish sauce\n3 tbsp sugar\n3 cloves garlic (minced)\n3 cups warm water\n
+            For the Egg Meatloaf:\n40g bean threads (soaked and chopped)\n½ cup dried wood ear mushrooms (soaked and chopped finely)\n3 tbsp shallot (minced)\n4 eggs\n200g minced pork\n1 tbsp oil\n1 tbsp fish sauce\n½ tsp salt\n½ tsp pepper\n
+            For Serving:\n4 cups of broken rice (cooked)\n4 fried eggs\nPickled carrots and radishes\nCucumber (de-seeded and sliced)\nSoy sauce (to garnish)\nShredded pork skin (bi)\nSpring onion (chopped and sautéed slightly)\n
+             \n
+            ------------ Procedure ------------\n
+            Grilled Pork (20mins)\nAdd Ingredient A into a bowl, stir until sugar fully dissolved. Place pork on a plate then pour in Ingredient A, make sure the marinate sauce are covering each surface of the pork evenly. Cover the plate and leave to marinate for 2 hours.\n Heat up a grill, put the marinated pork on top and let it grill for 10 minutes, flip side after 5 minutes. Remove pork from grill and cut into slices then arrange on a plate. Ready to serve.(Can use oven to replace grill, just make sure to observe and flip side when one side is cooked)\n
+            Egg Meatloaf (20mins)\nAdd Ingredient A into a bowl and mix evenly. Prepare a glass container and brush around the inner part with cooking oil, pour egg mixture into the container then set aside.\nPlace container into the steamer and steam for 15 minutes over medium heat. Pour the egg yolk on top of the steamed egg and continue to steam for another 5 minutes.(Be sure to stir the egg yolk before pouring on top of the steamed egg.)\n
+            Carrot Pickles (5mins)\nMix Ingredient A in a bowl and gently toss for 5 minutes, wash the vegetables with tap water then rinse dry and set aside.\nPour Ingredient B in a jar and stir well, Add Ingredient A into the jar and close the jar cover let marinate for 1 hour. Ready to serve.(If place in the fridge can store for up to 4 weeks)\n
+            Fish Sauce\nAdd Ingredient A into a bowl, keep mashing until sugar fully dissolved. Toss in Ingredient B then mix and stir well. Ready to serve.\n
+            Broken Rice (45mins)\nWash and rinse rice a few times until water becomes clear. Place soaked rice into rice cooker and pour water enough to cover the rice. Set to cook using the rice cooker.(Soak rice with water for 1 hour in the rice cooker before cooking for a better outcome.)\nScoop then place rice in the middle of a plate, then arrange Ingredient B accordingly around the plate Ready to serve.
+        </item>
+        <item>
+             \n  Nasi Lemak(椰醬飯)\n   \n
+            Description:\nMalay Coconut Milk Rice or better known as Nasi Lemak in local is rice cooked with coconut milk, and later served with fried anchovies, sambal (spicy sauce), slices of cucumber, boiled egg and fried ground nuts.\n
+             \n
+            ------------ Ingredients ------------\n
+            INGREDIENT A\n1 cup Rice\n50ml Coconut Milk\n125ml Water\n1 sprigs Pandan Leaf\n0.5 tsp Salt,\n1 slices Ginger\,\n
+            INGREDIENT B\n5g Dried Chili Pepper\n0.5/2 pcs Onion\n1 cloves Garlic\n0.5 tsp Shrimp Paste\n0.5 tsp Minced Ginger\n
+            INGREDIENT C\n1 tbsp Cooking Oil\n0.5/2 pcs Onion\n50ml Tamarind Juice\n50ml Water\n0.5/2 tsp Salt\n0.5/2 tbsp Sugar\n
+            INGREDIENT D\n10g Fried Anchovies\n1 Hard Boiled Eggs\n10g Roasted Peanuts\n2 pcs Cucumber Slices\n
+             \n
+            ------------ Procedure ------------\n
+            RICE PREPARATION (45mins)\nPlace all Ingredient A into rice cooker bowl, close rice cooker cover and let soak for 30 minutes.\nSwitch the rice cooker on and let it cook until it auto turns to keep warm.\n
+            SAUCE PREPARATION(25mins)\nPlace all Ingredient B into a blender and blend until it forms a smooth chilli paste.\nHeat up a wok with cooking oil, then toss the chilli paste into the wok and stir-fry for 20 minutes until the fragrant comes out. Pour remaining Ingredient C into the wok, stir well and let simmer on low heat for 5 minutes\n
+            DISH PREPARATION(5mis)\nStir coconut milk rice in the rice cooker with a spoon to make it fluff then scoop rice into a bowl to shape before transferring to a plate.\nAdd Ingredient D accordingly around the rice as a garnish, pour chilli sauce on top of the rice. Ready to serve.
+
+        </item>
+        <item>
+            \nHainanese Chicken Rice (海南雞飯)\n \n
+            Description:\nJuicy and Tender steamed chicken dipping with fresh homemade chili sauce , rounded up all together with oily rice.\n
+             \n
+            ------------ Ingredients ------------\n
+            CHICKEN INGREDIENT\n0.5 kg Chicken Breast Fillet\n0.5 teaspoon Salt\n0.25 inch Ginger\n0.5 cloves Garlic\n
+            RICE INGREDIENT\n0.5-3 cup Rice\n0.25 bowl Chicken Stock\n0.5 tablespoon Cooking Oil\n0.25 pinch Salt\n1 clove Garlic\n0.25 leaf Pandan Leaf\n
+            CHILI SAUCE INGREDIENT\n25g Red Chili\n15g Ginger\n35g Garlic\n35g Calamansi Juice\n25g Vinegar\n20g Sugar\n0.25 teaspoon Salt\n
+            GINGER SAUCE INGREDIENT\n80g Ginger Sauce Ingredient Ginger\n0.25/2 teaspoon Salt\n1 tablespoon Cooking Oil\n
+            SWEET SOY SAUCE INGREDIENT\n50g Sweet Soy Sauce Ingredient Sweet Soy Sauce37.5ml Water\n20g Rock Sugar\n
+             \n
+            ------------ Procedure ------------\n
+            PREPARING CHILI SAUCE (1mins)\nMix Chili Pepper, Red Chili, Ginger, Garlic, Calamansi Juice, Vinegar, Sugar, Salt into blender then turn it into sauce.\n
+            PREPARING GINGER SAUCE (4mins)\nWash ginger, use grater to turn it into paste.Mix ginger paste with salt and garlic oil.\n
+            PREPARING SWEET SOY SAUCE (5mins)\nFill water into pot then add crystal sugar keep stirring until dissolved.\nAdd in dark soy sauce and continue stirring until starts to boil, ready to serve.\n
+            COOKING CHICKEN (30mins)\nWash the salt covering the chicken and stuff in remaining salt , ginger and garlic into the chicken. \nPut chicken into boiling pot, use medium heat and cook for 10 mins and take out the chicken. \nPut chicken back into boiling pot and cook for 10 mins. Switch off the fire ,put on the pot cover and let it cook for another 10 mins.\nTake the chicken out from the pot, cut the chicken into pieces and ready to serve.\n
+            COOKING CHICKEN RICE(15mins)\nWhile cooking/chilling chicken, wash 3 cups of rice and let it soak inside water for 10 mins.\nHeat up a pan with vegetable oil, add in garlic ,pandan leaf and dried rice. \nStir fry for around 5 mins , add in salt and chicken stock then transfer into rice cooker and set to cook.
+        </item>
+        <item>
+             \n  Nasi Goreng (印尼炒飯)\n   \n
+            Description:\nNasi Goreng is the popular Indonesian fried rice which is traditionally served with a fried egg. As with almost every traditional dish, there are many versions of Nasi Goreng.
+             \n
+            ------------ Ingredients ------------\n
+            CHICKEN\n1 tbsp oil\n5 oz / 150g chicken breast , thinly sliced (or other protein)\n1 tbsp kecap manis (sweet soy sauce, Note 1)\n
+            RICE\n1.5 tbsp oil\n2 garlic cloves , finely chopped\n1 tsp red chilli , finely chopped (Note 2)\n1 onion , small, diced\n3 cups cooked white rice , day old, cold (Note 3)\n2 tbsp kecap manis (sweet soy sauce, Note 1)\n2 tsp shrimp paste , optional (Note 4)\n
+            GARNISHES / SIDE SERVINGS (OPTIONAL)\n4 eggs , fried to taste\n1 green onion , sliced\nTomatos and cucumbers, cut into wedges/chunks\nFried shallots , store bought (optional) (Note 3)\nLime wedges\n
+             \n
+            ------------ Procedure ------------\n
+            Heat oil in a large skillet or wok over high heat\nAdd chilli and garlic, stir for 10 seconds\nAdd onion, cook for 1 minute.\n
+            Add chicken, cook until it mostly turns white, then add 1 tbsp kecap manis and cook for a further 1 minute or until chicken is mostly cooked through and a bit caramelised.\n
+            Add rice, 2 tbsp kecap manis and shrimp paste, if using. Cook, stirring constantly, for 2 minutes until sauce reduces down and rice grains start to caramelise (key for flavour!).\n
+            Serve, garnished with garnishes of choice (green onions, red chilli, fried shallots).
+        </item>
+        <item>
+             \n  Vietnamese Pineapple Fried Rice (越式鳳梨炒飯)\n   \n
+            Description:\nThere’s various versions of Pineapple Fried Rice around, and this is Vietnamese version. The sweet, juicy pieces of pineapple goes so well with the savoury flavoured jasmine rice! Terrific side dish for tropical dishes, summer BBQ’s and of course, with all things Vietnam.\n
+             \n
+            ------------ Ingredients ------------\n
+            Ingredients\n2 tbsp vegetable oil\n2 garlic cloves , finely minced\n1/2 onion , finely chopped\n1/2 red capsicum / bell peppers , diced (~ 3/4 cup)\n1/2 cup peas , frozen\n3 cups day old jasmine rice , cooked (Note 1)\n220g pineapple pieces\n1/2 cup green onion , sliced\n
+            SAUCE\n1 tbsp oyster sauce\n1 1/2 tbsp fish sauce\n1/2 tsp sugar\n
+             \n
+            ------------ Procedure ------------\n
+            Heat oil in a wok or large non stick skillet over high heat.\nAdd garlic and onion, cook for 1 minute.\nAdd capsicum, cook for 1 minute.\nAdd peas, stir for 30 seconds.\n
+            Add rice and Sauce ingredients of choice. Cook, stirring constantly, for 2 minutes or until rice grains goes from being wet with sauce to sort of caramelised.\n
+            Add pineapple, stir for just 30 seconds to warm through.\nStir through green onions then serve!
+
+        </item>
+        <item>
+             \n  Thai Basil Chicken Rice (泰式打拋雞飯)\n   \n
+            Description:\nA tangy, spicy, salty and subtly sweet stir fry with holy basil and chilies and minced thigh fillets were used in this Thai basil chicken (pad krapow gai or phat kaphrao gai) recipe.\n
+             \n
+            ------------ Ingredients ------------\n
+            6 to 8 chicken thigh fillets\n4 cloves garlic\n2 bird’s eye chilies\n1 one-inch knob ginger\n
+            2 shallots, or 1 small red onion, thinly sliced\n2 tablespoons cooking oil\n3 tablespoons soy sauce\njuice of 1 lime\n
+            2 tablespoons sugar\nfish sauce, to taste\nlarge handful holy basil leaves\n3 eggs, fried sunny side up, to serve\n
+             \n
+            ------------ Procedure ------------\n
+            Pat the chicken fillets dry with paper towels. Mince the chicken to the size that you prefer.\nMince the garlic.\nFinely slice the chilies.\nPeel and mince the ginger.\n
+            Thinly slice (or roughly chop) the shallots or onion.\nHeat the cooking oil in a wok or frying pan. Saute the garlic, chilies, ginger and shallots or onion.\n
+            Add the minced chicken. Stir fry until the meat changes color. Pour in the soy sauce and half of the lime juice. Add the sugar. Stir and pour in enough fish sauce to create the sweet-tangy-salty-spicy balance that you like. If you’re aiming for authenticity, the flavor should be more tangy and spicy than sweet and salty.\n
+            Stir fry the chicken for three to four minutes. Add the holy basil leaves. Stir fry for another two to three minutes.\nTaste the chicken pad krapow. Adjust the seasonings, as needed, before serving with fried egg and rice.
+       </item>
+    </string-array>
+    <string-array name="noodle_recipe">
+        <item>
+            \n  Bún bò Huế (越南順化米線)\n   \n
+            Description:\nBún bò Huế is a hidden Vietnamese gem that has yet to make it in mainstream American cuisine. It\’s a rich and spicy soup with deep layers of flavor. This Central Vietnamese soup is paired with tender slices of beef and pork, then topped with lots of fresh herbs.\n
+            \n
+            ------------ Ingredients ------------\n
+            113.4g beef shank\n113.4g oxtail\n013.4g pork hocks\n56.7g Huế style pork sausage chả Huế, which has garlic and whole peppercorns\n56.7g block of pork blood\n
+            BROTH BASE and SEASONING\n3 oz chicken broth\n1.5 stalks lemongrass leafy tops removed, roots smashed\n0.25 yellow onions, large halved\n0.38 tbsp salt\n0.25 tbsp sugar\n0.25 tbsp shrimp paste Lee Kum Kee brand\n0.38-0.5 tbsp fish sauce\n0.25 tsp MSG (monosodium glutamate) if not using oxtail, add 4 teaspoons\n
+            AROMATICS and COLOR\n0.38 tbsp anatto seeds\n0.38 tbsp neutral cooking oil\n0.25 tbsp shallot sliced\n0.25 tbsp garlic minced\n
+            HERBS and VEG\nmint\nbasil\nbean sprouts\nbirds eye chile or jalapeno\nlime sliced\n
+            BANANA FLOWER\n0.13 banana flower\n0.25 cups water\n0.13 lemon juiced\n
+            NOODLES\n49.61g package dried rice noodle medium or large thickness\n
+            SATÉ (SPICY CHILE CONDIMENT)\n2.5g dried Thai chile crushed\n0.06c neutral cooking oil\n10g shallot or white onion minced\n5g garlic minced\n3.75g lemongrass minced\n0.25 tbsp Korean chile powder (gochugaru)\n0.13 tbsp fish sauce\n0.13 tbsp sugar\n0.08 tsp salt\n0.06 tsp MSG (monosodium glutamate)\n
+            \n
+            ------------ Procedure ------------\n
+            BROTH\n
+            Clean the meat: Add all meat to a stock pot and enough water to submerge it, bring to a boil. Drain and rinse thoroughly under running water.\n
+            Add the meat, broth, lemongrass and onions to the pot and fill with water almost to the brim. Bring to a boil then drop the heat to medium-high to maintain a low boil. Add the seasoning.\n
+            Let it simmer and periodically check the meats for doneness and remove them as they finish cooking. The pork should be done after about an hour, the beef can vary between 2-3 hours.\n
+            After all the meat has removed, let it cool, then slice it. Adjust seasoning and add water to the broth pot if necessary.\n
+            Make the aromatics and coloring then add it to the pot.\n
+            Boil noodles according to package instructions.\n
+            Assemble your bowl, and serve with herbs and veg on a side platter.\n
+            RED COLORING and AROMATICS\n
+            Sauté seeds in oil on medium heat until the seeds give up the bright red color, then remove the seeds.\n
+            Add shallots and garlic, sauté until brown.\n
+            Add all of this to the pot of broth for color.\n
+            PORK BLOOD\n
+            The easiest thing to do is just buy it already cooked and boil just to heat it up. If you use the raw type like we did for this recipe, cut into cubes and boil for 30-45 minutes\n
+            BANANA FLOWER\n
+            Prepare a bowl of about 2 cups of water, mixed with the juice of 1 lemon.\n
+            Thinly slice the banana flower and add to the water mixture to sit for about 30 minutes.\n
+            Avoid adding little fronds (that look like mini bananas), removing them as you encounter them. They taste bitter!\n
+            SATÉ (SPICY CHILE CONDIMENT)\n
+            Weigh out the dried Thai chiles, then soak in just enough warm water to cover the chiles for 20 minutes. Drain the water.\n
+            Add all sate ingredients to a pan on medium heat and stir continuously to brown, cook, and slightly reduce the chile paste, about 30-40 minutes. If at any point it becomes too dry, you can add more oil, up to 50% of the amount we started with. Taste and reseason with sugar or salt as desired. See photo for how the final product should look.\n
+            Let cool and transfer to a sealed jar stored in the fridge . You can add ~2 tbsp of the final product to the soup pot for a boost in flavor and color, or simply and let each person add to their bowl to make it as spicy as they\’d like!
+        </item>
+        <item>
+            \n  Bún Riêu (越式紅燒番茄米線)\n   \n
+            Description: \n
+            Bún riêu is another very popular and flavor-packed Vietnamese rice noodle soup, with soup flavored with tomatoes, shrimp paste, fish sauce and a meat broth.\n
+            \n
+            ------------ Ingredients ------------\n
+            SOUP\n
+            50g shallots about four large cloves, thinly sliced\n
+            2tbsp neutral cooking oil\n
+            907.2  tomatoes quartered (any type)\n
+            1tsp fermented shrimp paste – Lee Kum Kee diluted in a small bowl w a bit of water for even dispersion\n
+            3tbsp fish sauce\n
+            1tsp salt\n
+            1-2tbsp rock sugar granulated is ok too\n
+            4tbsp ketchup\n
+            43.5oz chicken broth or make your own broth with water and 1 lb pork ribs\n
+            43.5oz water\n
+            1-2tsp monosodium glutamate seasoning\n
+            MEATBALLS\n
+            25g shallot sliced (about two large cloves)\n
+            56.7g raw shrimp shells removed, deveined\n
+            302.4g ground pork\n
+            5.6oz canned minced prawn or minced crab with spices. Lee brand.\n
+            57g steamed or canned crab optional. If using frozen or canned, lightly squeeze to remove excess moisture.\n
+            2 large eggs\n
+            1 tsp pepper\n
+            1 tsp sugar\n
+            1 tbsp fish sauce\n
+            5 stalks green onions cut into 1.5 pieces\n
+            ACCOUTREMENT (ALL OPTIONAL)\n
+            453.6g deep fried tofu\n
+            26.8g raw bean sprouts\n
+            1bunch kinh gioi / Vietnamese balm\n
+            1bunch mint\n
+            1bunch tia to / purple perilla\n
+            shrimp paste on the side\n
+            sliced limes\n
+            4 thai chiles\n
+            NOODLES\n
+            1lb dried rice vermicelli sticks small noodle size. Thap Chua brand (but any will do)\n
+            \n
+            ------------ Procedure ------------\n
+            Cook noodles according to package instructions, split between 4-5 bowls\n
+            SOUP\n
+            Thinly slice shallots, add oil to a pan and saute until light brown.\n
+            Add quartered tomatoes, stir fry for 3-5 minutes until slightly soft.\n
+            Add shallots, tomatoes, and all remaining soup ingredients into a large pot.\n
+            Raise to high heat until it hits a boil, and boils for five minutes.\n
+            Reduce the heat to medium-low or low, so it maintains a low boil while you work on the MEATBALLS.\n
+            MEATBALLS\n
+            Add shallots into a small food processor, pulse until finely chopped.\n
+            Add shrimp, pulse 5-6 times.\n
+            Add remaining ingredients (except crab and green onion) and pulse a few times until evenly mixed.\n
+            Pour into a mixing bowl, add crab and lightly mix with a spoon.\n
+            Using a soup spoon, scoop 1-2 tbsp size meat balls (your choice!) into the pot until you use it all\n
+            Raise the heat to high and bring to a boil, then drop heat to a low boil. At most it should take 20 minutes to cook the meatballs all the way through. Check doneness by breaking a meatball in half to make sure its not soft or raw inside.\n
+            During the last five minutes of cooking, drop in the chopped green onion so it slightly softens
+        </item>
+        <item>
+            \n  Bún thịt nướng (越式烤肉米線)\n   \n
+            Description:\n
+            A combination of steamy fragrant broken rice with tender pork cutlet, fresh vegetables, egg meatloaf or fried egg, and carrot pickles.\n
+            \n
+            ------------ Ingredients ------------\n
+            Spring Roll:\n
+            1 clove Garlic\n
+            100g Garlic Chives\n
+            2 tbsp Fish Sauce\n
+            1 tsp Sugar\n
+            1/2 bunch Coriander\n
+            200g Shrimp\n
+            350g Minced Pork\n
+            2 tsp Salt\n
+            1 tsp Ground Black Pepper\n
+            8 sheet Rice Paper\n
+            1 Egg\n
+            Cooking Oil\n
+
+            Fish Sauce:\n
+            1 Garlic\n
+            0.5 tsp Sugar\n
+            100ml Water\n
+            1 tsp Fish Sauce\n
+            1 tbsp Lime Juice\n
+            1 Bird\’s Eye Chili\n
+
+            Grilled Pork:\n
+            0.5 tbsp Sugar\n
+            1 tbsp Fish Sauce\n
+            0.25 stalk Lemongrass\n
+            0.5 clove Garlic\n
+            0.5 Shallot\n
+            0.5 Red Chili\n
+            0.5 tsp Ground Black Pepper\n
+            0.25 kg Pork Meat\n
+
+            INGREDIENT A\n
+            200g Vietnam Vermicelli\n
+            500ml Water\n
+            100ml Sweet Sauce\n
+            INGREDIENT B\n
+            1/2 stick Carrot\n
+            1 sprigs Spring Onion\n
+            100g Toasted Ground Peanut\n
+            \n
+            ------------ Procedure ------------\n
+            Spring Roll (15 mins)\n
+            Coarsely chop the prawns and mix with the minced pork , seasoned with salt and pepper. Add ingredient A into prawn and pork mixture.\n
+            Place 2 tablespoon of the prawn and minced pork mixture in the center of each sheet. Fold the lower edge of the sheet over the filling. Fold the left and the right edges inward , over the filling. Brush the remaining edge of the sheet with egg white and roll up tightly.\n
+            Deep fry the spring roll in hot oil for 5 minutes until the rice paper turn golden brown. Allow to drain briefly on kitchen paper , then serve with sweet chili sauce.\n
+
+            Fish Sauce (5mins)\n
+            Add Ingredient A into a bowl, keep mashing until sugar fully dissolved. Toss in Ingredient B then mix and stir well. Ready to serve.\n
+            Grilled Pork (20mins)\n
+            Add Ingredient A into a bowl, stir until sugar fully dissolved. Place pork on a plate then pour in Ingredient A, make sure the marinate sauce are covering each surface of the pork evenly. Cover the plate and leave to marinate for 2 hours.\n
+            Heat up a grill, put the marinated pork on top and let it grill for 10 minutes, flip side after 5 minutes. Remove pork from grill and cut into slices then arrange on a plate. Ready to serve.(Can use oven to replace grill, just make sure to observe and flip side when one side is cooked)\n
+            VERMICELLI PREPARATION (10mins)\n
+            Heat up a pot of water, soak vermicelli in until boil. Remove vermicelli from the pot and rinse until dry.\n
+            DISH PREPARATION (5mins)\n
+            Place vermicelli in a bowl, arrange Ingredient B then Grilled Pork and Spring Roll accordingly on top. Fill sweet sauce on a saucer plate and serve all together.\n
+            (The correct way of eating this dish is to pour in the sweet sauce then mix evenly before eating)
+        </item>
+        <item>
+            \n  Char kway teow (炒粿條)\n   \n
+            Description:\n
+            One of the most epic noodle dishes in the world from the streets of Malaysia: Char Kway Teow! Big flavours, contrasting textures and the signature hint of charred smokiness, this is bold South East Asian food at its best!\n
+            \n
+            ------------ Ingredients ------------\n
+            500g / 1 lb fresh wide rice noodle\n
+            2tbsp lard , or vegetable oil\n
+            2tbsp vegetable oil , separated\n
+            10 small prawns/shrimp , shelled and deveined\n
+            2 garlic cloves , finely chopped\n
+            1 Chinese sausage / Lup Chong Sausage , sliced thinly on the diagonal\n
+            5cm / 2 piece of fried fish cake , sliced thinly\n
+            20 stems garlic chives , cut into 4 pieces\n
+            2 1/2 cups bean sprouts\n
+            2 eggs , whisked\n
+
+            SAUCE:\n
+            5tsp dark soy sauce\n
+            4tsp light soy\n
+            2tsp oyster sauce\n
+            4tsp kecap manis / sweet soy sauce\n
+            \n
+            ------------ Procedure ------------\n
+            NOODLES:\n
+            Do not attempt to pull noodles apart while cold and hard - they break.\n
+            Place whole packet in microwave, heat on high for 1 1/2 minutes - 2 minutes until warm and pliable, not hot, turning packet over as needed.\n
+            Handle carefully and measure out 500g/1 lb noodles into a heatproof bowl. Separate noodles stuck together.\n
+            If noodles become cold and brittle before cooking, cover with cling wrap and microwave for 30 seconds to make warm (not hot, just warm) to reduce breakage.\n
+
+            COOKING:\n
+            Heat lard and 1 tbsp oil in a wok or very large heavy based skillet over high heat. Swirl around the wok.\n
+            When it starts smoking, add prawns. Cook for 30 seconds.\n
+            Add garlic, stir for 10 seconds.\n
+            Add noodles, then using both hands on the handle, toss 4 times until coated with oil (or gently fold using a spatula  wooden spoon, see video).\n
+            Add Chinese sausage and fish cake, toss or gently fold 4 times.\n
+            Add bean sprouts and garlic chives, toss or gently fold 6 times.\n
+            Push everything to one side, add remaining 1 tbsp oil. Add egg and cook, moving it around until mostly set - about 1 minute. Use wooden spoon to chop it up roughly.\n
+            Pour Sauce over noodles, then toss to disperse Sauce through the noodles. Pause between tosses to give the noodles a chance to caramelise on the edges.
+        </item>
+        <item>
+            \n  Laksa (叻沙)\n   \n
+            Description:\n
+            Laksa paste is a blend of lemongrass, dried chilies, shallots, galanga, turmeric, spices, dried shrimp and shrimp paste, all blended up in the food processor, then sautéed in a little oil to deepen the flavor.\n
+            \n
+            ------------ Ingredients ------------\n
+            3 tablespoons vegetable oil\n
+            1 recipe for Laksa Paste\n
+            6 cups chicken stock or broth\n
+            8 kefir lime leaves\n
+            1 teaspoon salt, more to taste\n
+            1 tablespoon brown sugar or palm sugar\n
+            1 1/2 pounds raw chicken (breast or thigh meat) cut into thin, bite-sized pieces (or sub fish or crispy tofu)\n
+            1 pound raw large shrimp (raw, peeled, or sub firm fish, or more chicken or veggies )\n
+            2 x 13.5 ounce cans full-fat coconut milk. Do not use lite – and if you like an even richer broth, add a third can.\n
+            Juice from 1–2 limes\n
+            fish sauce to taste ( I use 1 tablespoon)\n
+            1 pound dry rice noodles  (2 ounces per person).\n
+            Garnishes: bean sprouts, lime wedges, cilantro, Vietnamese mint, scallions, sambal chili paste, fried shallots (available in jars at an Asian market)\n
+            OPTIONAL ADDITIONS or Substitutions: Fried tofu cubes, fish balls ( frozen), scallops or other firm fish, clams, mussels, and veggies like snow peas, mushrooms, carrots, bell pepper, chopped spinach or greens etc….\n
+            \n
+            ------------ Procedure ------------\n
+            Make the Laksa paste- see the notes below (or use store-bought laksa paste).\n
+            Cook rice noodles according to directions. Set aside. See notes for fresh noodles. \n
+            In a large heavy bottom soup pot or dutch oven, heat  oil over medium-high heat. Add all the homemade Laksa Paste  (or the 7-ounce Jar), and saute, stirring constantly until it becomes very fragrant and deep in color about 2-3 minutes. (Turn stove fan on). Add the chicken broth scraping up all the brown bits.  Add the lime leaves, salt and sugar and bring to a simmer.\n
+            Add chicken and simmer 4-5 minutes. Add shrimp, cook for 2-3 minutes, add coconut milk. Simmer until heated through. Do not boil this too long or you will loose the lovely sweetness from the coconut milk– just gently warm.\n
+            Add lime juice, starting with a 1 lime, and more to taste. Add fish sauce to taste, adding a teaspoon at a time. The broth should taste rich and deep, and slightly salty (the noodles will mellow the salt out) and just a little limey. If it tastes, too fishy add more lime juice. Guests can squeeze more lime to taste. If you want more heat, add chili flakes or chili paste.\n
+            Divide the cooked rice noodles among bowls. Ladle flavorful soup over top of noodles. Top bowls with a handful of fresh bean sprouts, fresh cilantro and/or mint.  Serve with chili sauce and lime wedges.\n
+            For rice noodles, calculate two ounces ( dry rice noodles ) per person.
+        </item>
+        <item>
+            \n  Phở bò (越南牛肉河粉)\n   \n
+            Description:\n
+            A combination of soft rice vermicelli covered with well spiced smooth beef broth.This clean and well-spiced beef noodle soup are being loved by Vietnamese and being served as a daily meal.\n
+            ------------ Ingredients ------------\n
+            Ingredient A:\n
+            0.5 segment Ginger\n
+            0.5 pcs Onion\n
+            Ingredient B\n
+            250g Beef Bone\n
+            0.75 litre Water\n
+            Ingredient C\n
+            2 pcs Star Anise\n
+            1 pcs Cloves\n
+            0.5 stick Cinnamon Stick\n
+            1 tsp Salt\n
+            1 tbsp Fish Sauce\n
+            Ingredient D\n
+            100g Banh Pho Noodles\n
+            100g Beef Slice\n
+            Ingredient E\n
+            0.5 tsp Ground Black Pepper\n
+            0.5/2 pcs Minced Onion\n
+            1 sprigs Minced Scallio\n
+            \n
+            ------------ Procedure ------------\n
+            Place Ingredient A into the preheating oven and let roast for 10 minutes until turn golden brown.(Remove burnt surface from the onion and set aside for later use.)\n
+            Add Ingredient B into a pot and let boil for 10 minutes. Pour the scum water out into the sink then refill the pot again with water, bring the water to boil over high heat.(Use a strainer to remove meat scums from the broth occasionally.)\n
+            Continue by adding Ingredient A and Ingredient C into the pot and let simmer over low heat for 2 hours.(Taste and adjust the broth using fish sauce and salt.)\n
+            Heat up a saucepan with water, add Banh Pho Noodle and blanch until noodle turns opaque white, transfer to a plate. Continue by adding beef slice into the saucepan and cook for 3 minutes then retrieve and set aside.\n
+            Place Noodle into 2 separate bowls as base Ingredient, add beef slice on top of the noodle then pour beef broth into the bowl. Sprinkle Ingredient E around the bowl as garnishes. Ready to serve.(You may add bean sprout, lime wedges, coriander or mint leaves for this dish.)
+        </item>
+    </string-array>
+
+    <string-array name="drink_recipe">
+        <item>
+             \n  Vietnamese Coffee (越南咖啡)\n   \n
+            Description:\n
+            Vietnamese coffee is traditionally brewed in a phin – a small metal cup that fits over a mug or cup– and brews incredibly slowly, but makes a strong and small coffee which resembles a thicker, more caffeinated espresso.\n
+             \n
+            ------------ Ingredients ------------\n
+            1 tablespoon ground chicory coffee\n
+            2 tablespoons sweetened condensed milk\n
+            1 cup hot water (240 mL)\n
+             \n
+            ------------ Procedure ------------\n
+            Pour the ground coffee into a Vietnamese phin filter base. Place the phin filter strainer on top of the coffee.\n
+            Pour the sweetened condensed milk into a glass.\n
+            Place the phin assembly on top of the glass. Pour hot water into the phin filter. Place the phin filter lid on top and let the coffee drip through the filter into the glass.\n
+            Stir well before serving.\n
+            Enjoy!
+        </item>
+        <item>
+             \n  Teh tarik (印度拉茶)\n   \n
+            Description:\n
+            Pulled tea(Teh tarik) is a popular hot milk tea beverage most commonly found in restaurants, outdoor stalls and kopitiams within the Southeast Asian countries of Malaysia, Indonesia and Singapore.\n
+             \n
+            ------------ Equipment ------------\n
+            2 tea mugs or cups\n
+            Kettle\n
+            Stainless steel jug for pouring to pull the tea\n
+             \n
+            ------------ Ingredients ------------\n
+            250 ml boiling water\n
+            2 black tea bags or ½ tbsp of loose black tea leaves\n
+            2 tbsp condensed milk\n
+            Ice optional\n
+             \n
+            ------------ Procedure ------------\n
+            Place teabags (or tea strainer and loose leaves) into a mug and pour over boiling water. Steep for a few minutes until tea is dark and intense, then allow to cool for a few more minutes.\n
+            Add 2 tbsp condensed milk and stir until spoon is clean.\n
+            PULLING THE TEA:\n
+            (Caution: Please be careful with hot tea to avoid a nasty burn!)\n
+            Pour the tea into a stainless steel jug, then pour into a mug or tea glass. Try to gain as much height as possible while pouring. Repeat until tea is frothy.\n
+            Serve hot or over plenty of ice for a chilled summer drink.
+        </item>
+        <item>
+             \n  Milo (冰美祿)\n   \n
+            Description:\n
+            Milo is a chocolate flavoured malted powder product produced by Nestlé, typically mixed with milk, hot water, or both, to produce a beverage.\n
+             \n
+            ------------ Ingredients ------------\n
+            6 Tbsp Nestle Milo Powder\n
+            100ml Hot Water\n
+            3/4 - 1 Tbsp Sweetened Creamer/Condensed Milk\n
+            A few Ice Cubes\n
+            2-3 Tbsp Nestle Milo Powder for sprinkling\n
+             \n
+            ------------ Procedure ------------\n
+            Mix Nestle Milo powder and Sweetened Creamer along with Hot Water in a tall glass, stir until all the above ingredients are well incorporated.\n
+            Top it up with Ice Cubes and give a quick stir.\n
+            Sprinkle ample amount of Nestle Milo Powder over the drink.
+        </item>
+    </string-array>
+
+    <string-array name="soup_recipe">
+        <item>
+             \n  Bak Kut Teh (肉骨茶)\n   \n
+            Description:\n
+            Bak Kut Teh is a Malaysian herbal soup dish made with pork ribs and Chinese herbs. Traditionally made in a claypot, this homemade recipe is easy, authentic and hearty.\n
+             \n
+            ------------ Ingredients ------------\n
+            4 cups water\n
+            1 pack pre-packed Bak Kut Teh herbs\n
+            2 heads garlic\n
+            400g pork ribs, cut into pieces\n
+            6 dried shitake mushrooms, soaked and cut into halves\n
+            1 cup tofu puffs, cut into halves\n
+            SEASONING:\n
+            2 tablespoons soy sauce\n
+            1 teaspoon dark soy sauce\n
+            1 tablespoon oyster sauce\n
+            3 dashes white pepper powder\n
+            salt to taste\n
+            DIPPING SAUCE:\n
+            4-5 bird\’s eyes chilies or Thai chilies, sliced\n
+            1 tablespoon minced garlic\n
+            1 tablespoon soy sauce\n
+            1 tablespoon Indonesian ABC sweet soy sauce\n
+             \n
+            ------------ Procedure ------------\n
+            Add the water in a big claypot (preferred) or soup pot and bring it to boil. Add the garlic, Bak Kut Teh herbs, pork ribs, mushrooms, tofu puffs and simmer on low heat for about 1 - 2 hours.\n
+            Mix all the ingredients in the Dipping Sauce together. Transfer to a small condiment bowl.\n
+            Add in all ingredients in Seasoning and and simmer for another 10 minutes. Serve immediately with the Dipping Sauce.
+        </item>
+        <item>
+             \n  Canh chua (越式酸辣湯)\n   \n
+            Description:\n
+            Vietnamese sweet and sour soup or canh chua is a famous soup. It is usually served with a long braised catfish as part of a dinner menu. The dish consists of fish, tomatoes, pineapple, okra, bean sprouts and tamarind. The sour taste of the soup comes from fresh tamarind, usually diluted with water, then added to the soup.,
+             \n
+            ------------ Ingredients ------------\n
+            1 ½lb pork\n
+            1 yellow onion\n
+            1 ½oz fresh tamarind\n
+            1tsp salt\n
+            1 can pineapple 20 oz\n
+            1 piece ginger 1inch long\n
+            1 ½lb catfish cut into 1 inch pieces\n
+            10oz elephant ear stem cut into chunks\n
+            3 tomatoes quartered\n
+            12oz bean sprouts\n
+            1tsp granulated sugar\n
+            1oz rice paddy herb\n
+             \n
+            ------------ Procedure ------------\n
+            Add pork to a large soup pot. Cover with water until it just covers the pork. Bring to a boil and simmer for 10 minutes. Take out the pork and then throw away the water. This process cleans the pork. Rinse the pot and add the pork back. Cover the pork with fresh water until it just covers the meat. Bring to a boil.\n
+            Add the onion and simmer for 1.5 hours. Make sure to check every 30 minutes for impurities. Scoop away any you see.\n
+            While the soup is simmering, combine 1 cup of water and tamarind in a small saucepan. Bring to a boil and let it simmer until the tamarind dissolves.You can help speed up the process by using the back of a spoon to crush the tamarind. Pour the tamarind through a fine mesh sieve into a small bowl. Set aside.\n
+            After simmering the soup for 1.5 hours, add the pineapple to the soup. Simmer for another 20 minutes.\n
+            Put the catfish in and simmer for another 10 minutes until it is cooked through.\n
+            Lastly, add the vegetables and tamarind from step 3. Bring the soup to a boil and serve with a side of white rice. Make sure to taste the soup for seasoning and add more salt if it tastes bland.
+        </item>
+        <item>
+             \n  Tom Yum Soup (泰式冬陰湯)\n   \n
+            Description:\n
+            A tangy, spicy, salty and subtly sweet stir fry with holy basil and chilies and minced thigh fillets were used in this Thai basil chicken (pad krapow gai or phat kaphrao gai) recipe.,
+             \n
+            ------------ Ingredients ------------\n
+            300g shrimp with heads and shells on\n
+            BROTH:\n
+            3 cup (750 ml) water\n
+            1/2 cup (125 ml) chicken stock/broth , low sodium\n
+            2 stalks of lemongrass , outer layers peeled\n
+            1.5cm / 3/5 piece of galangal , cut into 4 slices\n
+            5 kaffir lime leaves , torn roughly\n
+            2 Thai or birdseye chilliesv\n
+            3 garlic cloves\n
+            SOUP ADD INS:\n
+            120g oyster mushrooms\n
+            1 roma tomato , cut into wedges\n
+            1/2 white onion (medium sized), cut into wedges about 1cm thick\n
+            1tsp sugar\n
+            3tbsp fish sauce\n
+            3tbsp lime juice\n
+            Coriander/cilantro , for garnish\n
+            CREAMY TOM YUM OPTION:\n
+            1 1/2 tbsp Thai roasted chili sauce\n
+            1/3 cup (75 ml) evaporated milk\n
+             \n
+            ------------ Procedure ------------\n
+            BROTH:\n
+            Peel the prawns. Place heads and shell in pot, reserve meat.\n
+            Use a meat mallet or similar to bash the garlic, chilli and lemongrass so they burst open to release flavour. Add into pot.\n
+            Crush kaffir lime leaves with your hands. Add into pot.\n
+            Add galangal, stock and water. Bring to simmer on high heat, cover, then reduce to medium and simmer for 10 minutes.\n
+            Strain the broth, discard the prawn shells etc, then return broth into same pot over low heat.\n
+            FINISH SOUP:\n
+            Add onions and mushrooms, simmer 3 minutes. Add tomatoes, simmer for 1 minute.\n
+            Add prawns, simmer 2 minutes or until just cooked.\n
+            Stir in sugar and fish sauce, simmer for 1 minute.\n
+            Add lime juice, then taste. Adjust sweet (sugar), salt (fish sauce) and sour (lime) to your taste (trust me, you\’ll know when you like it!).\n
+            Ladle into bowls and serve with fresh coriander and fresh chilli! This is the CLEAR version of Tom Yum.\n
+            CREAMY TOM YUM:\n
+            When you add sugar, also add Thai Chilli Paste and evaporated milk.\n
+            Then continue with recipe!
+        </item>
+        <item>
+             \n  Canh atiso (越式百合花湯)\n   \n
+            Description: \n
+            Artichoke flower can be cooked many artichoke dishes, especially artichoke flower use for  cooking artichoke soup, it is very tasty and good for your health, this soup will bring you a good liver and lungs, it is appropriate with the elderly or young children.,
+             \n
+            ------------ Ingredients ------------\n
+            400 g pork ribs, chopped into 2 cm pieces\n
+            2 artichokes(600g) with stalks intact\n
+            2.5 litres water\n
+            1 teaspoon salt\n
+            1 teaspoon sugar\n
+            2 tablespoons fish sauce\n
+             \n
+            ------------ Procedure ------------\n
+            Fill a large mixing bowl with cold water\n
+            Slice the artichoke stalks into 4 cm pieces then cut the artichokes in quarters, removing any fuzzy parts. Immediately submerge the artichokes into the cold water to prevent it from going black.\n
+            In a large pot, add pork ribs, artichokes, fish sauce, sugar, salt, pepper and 2.5 litres water. Bring to a boil then skim off any impurities for 10 minutes.\n
+            Reduce the heat to a low simmer then close with lid. Simmer for 45 minutes.\n
+            Always use a stainless-steel knife and submerge sliced artichokes in water to prevent the artichoke turning black.
+        </item>
+    </string-array>
+
+    <string-array name="rice_name">
+        <item>越式碎米飯</item>
+        <item>Malay Coconut Milk Rice (椰醬飯)</item>
+        <item>Hainanese Chicken Rice (海南雞飯)</item>
+        <item>Indonesian Fried Rice (印尼炒飯)</item>
+        <item>Vietnamese Pineapple Fried Rice (越式鳳梨炒飯)</item>
+        <item>Thai Basil Chicken Rice (泰式打拋雞飯)</item>
+    </string-array>
+    <string-array name="rice_calories">
+        <item>459</item>
+        <item>587</item>
+        <item>403</item>
+        <item>364</item>
+        <item>420</item>
+        <item>201.7</item>
+    </string-array>
+    <string-array name="rice_fat">
+        <item>14g</item>
+        <item>33g</item>
+        <item>15g</item>
+        <item>10g</item>
+        <item>12g</item>
+        <item>1.6g</item>
+    </string-array>
+    <string-array name="rice_sodium">
+        <item>776mg</item>
+        <item>1259mg</item>
+        <item>1355mg</item>
+        <item>420mg</item>
+        <item>310mg</item>
+        <item>6330mg</item>
+    </string-array>
+    <string-array name="rice_sugar">
+        <item>10g</item>
+        <item>7.3g</item>
+        <item>4.2g</item>
+        <item>3g</item>
+        <item>6g</item>
+        <item>6g</item>
+    </string-array>
+    <string-array name="rice_carb">
+        <item>35g</item>
+        <item>54g</item>
+        <item>42g</item>
+        <item>62g</item>
+        <item>65g</item>
+        <item>24g</item>
+    </string-array>
+    <string-array name="rice_protein">
+        <item>24g</item>
+        <item>21g</item>
+        <item>23g</item>
+        <item>8g</item>
+        <item>8g</item>
+        <item>13g</item>
+    </string-array>
+
+    <string-array name="noodle_name">
+        <item>Bun bo hue (越南順化米線)</item>
+        <item>Vietnamese Tomato Noodle (越式紅燒番茄米線)</item>
+        <item>Vietnamese Pork Vermicelli (越式烤肉米線)</item>
+        <item>PENANG FRIED FLAT NOODLES (炒粿條)</item>
+        <item>Laksa (叻沙)</item>
+        <item>Vietnamese Beef Noodle (越南牛肉河粉)</item>
+    </string-array>
+    <string-array name="noodle_calories">
+        <item>620</item>
+        <item>415</item>
+        <item>665</item>
+        <item>276</item>
+        <item>613</item>
+        <item>334</item>
+    </string-array>
+    <string-array name="noodle_fat">
+        <item>13g</item>
+        <item>12g</item>
+        <item>11g</item>
+        <item>10g</item>
+        <item>31g</item>
+        <item>6g</item>
+    </string-array>
+    <string-array name="noodle_sodium">
+        <item>1107mg</item>
+        <item>959mg</item>
+        <item>988mg</item>
+        <item>486mg</item>
+        <item>2456mg</item>
+        <item>580mg</item>
+    </string-array>
+    <string-array name="noodle_sugar">
+        <item>13g</item>
+        <item>18g</item>
+        <item>4.2g</item>
+        <item>9g</item>
+        <item>17g</item>
+        <item>4g</item>
+    </string-array>
+    <string-array name="noodle_carb">
+        <item>79g</item>
+        <item>56g</item>
+        <item>80g</item>
+        <item>39g</item>
+        <item>64g</item>
+        <item>55g</item>
+    </string-array>
+    <string-array name="noodle_protein">
+        <item>46g</item>
+        <item>17g</item>
+        <item>35g</item>
+        <item>8g</item>
+        <item>23g</item>
+        <item>15g</item>
+    </string-array>
+
+    <string-array name="soup_name">
+        <item>Bak kut teh (肉骨茶)</item>
+        <item>Vietnamese Sweet and Sour Soup (越式酸辣湯)</item>
+        <item>Tom Yum Soup (泰式冬陰湯)</item>
+        <item>Atiso Soup (越式百合花湯)</item>
+    </string-array>
+    <string-array name="soup_calories">
+        <item>260</item>
+        <item>176</item>
+        <item>330</item>
+        <item>320</item>
+    </string-array>
+    <string-array name="soup_fat">
+        <item>15g</item>
+        <item>7.6g</item>
+        <item>12g</item>
+        <item>11g</item>
+    </string-array>
+    <string-array name="soup_sodium">
+        <item>1107mg</item>
+        <item>537mg</item>
+        <item>--</item>
+        <item>255mg</item>
+    </string-array>
+    <string-array name="soup_sugar">
+        <item>10g</item>
+        <item>10g</item>
+        <item>29g</item>
+        <item>9g</item>
+    </string-array>
+    <string-array name="soup_carb">
+        <item>8g</item>
+        <item>14g</item>
+        <item>44g</item>
+        <item>27g</item>
+    </string-array>
+    <string-array name="soup_protein">
+        <item>14g</item>
+        <item>14g</item>
+        <item>15g</item>
+        <item>30g</item>
+    </string-array>
+
+    <string-array name="drink_name">
+        <item>Vietnamese Coffee (越南咖啡)</item>
+        <item>Pulled Tea (印度拉茶)</item>
+        <item>Milo (冰美祿)</item>
+    </string-array>
+    <string-array name="drink_calories">
+        <item>114</item>
+        <item>186</item>
+        <item>130</item>
+    </string-array>
+    <string-array name="drink_fat">
+        <item>4g</item>
+        <item>6g</item>
+        <item>3g</item>
+    </string-array>
+    <string-array name="drink_sodium">
+        <item>--</item>
+        <item>--</item>
+        <item>150mg</item>
+    </string-array>
+    <string-array name="drink_sugar">
+        <item>14g</item>
+        <item>8g</item>
+        <item>7g</item>
+    </string-array>
+    <string-array name="drink_carb">
+        <item>--</item>
+        <item>--</item>
+        <item>20g</item>
+    </string-array>
+    <string-array name="drink_protein">
+        <item>--</item>
+        <item>--</item>
+        <item>3g</item>
+    </string-array>
 </resources>
