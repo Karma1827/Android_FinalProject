@@ -21,15 +21,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         TabLayout tabLayout = findViewById(R.id.tab_layout);
-        // Set the text for each tab.
-        //tabLayout.addTab(tabLayout.newTab().setText(R.string.tab_label1));
         tabLayout.addTab(tabLayout.newTab().setText(R.string.tab_label1));
         tabLayout.addTab(tabLayout.newTab().setText(R.string.tab_label2));
         tabLayout.addTab(tabLayout.newTab().setText(R.string.tab_label3));
         tabLayout.addTab(tabLayout.newTab().setText(R.string.tab_label4));
         tabLayout.addTab(tabLayout.newTab().setText(R.string.tab_label5));
-
-
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
         final ViewPager viewPager = findViewById(R.id.pager);
@@ -61,11 +57,11 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()){
-            /*case R.id.action_order:
-                Intent intent = new Intent(MainActivity.this, OrderActivity.class);
+            case R.id.action_clock:
+                Intent intent = new Intent(MainActivity.this, Clock.class);
                 intent.putExtra(EXTRA_MESSAGE, mOrderMessage);
                 startActivity(intent);
-                return true;*/
+                return true;
             case R.id.action_search:
                 displayToast(getString(R.string.action_search_message));
                 return true;
@@ -83,5 +79,4 @@ public class MainActivity extends AppCompatActivity {
     private void displayToast(String string) {
         Toast.makeText(getApplicationContext(), string, Toast.LENGTH_LONG).show();
     }
-
 }

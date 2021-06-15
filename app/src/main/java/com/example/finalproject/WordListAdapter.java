@@ -45,8 +45,6 @@ public class WordListAdapter extends RecyclerView.Adapter<WordListAdapter.WordVi
     public void onBindViewHolder(WordViewHolder holder, int position) {
         String mCurrent = mWordList.get(position);
         holder.wordItemView.setText(mCurrent);
-        //mCurrent = mDetailList.get(position);
-       // holder.detailItemView.setText(mCurrent);
         Integer mPicture = mPictureList.get(position);
         holder.pictureItemView.setImageResource(mPicture);
     }

@@ -84,9 +84,6 @@ public class FullRecipe extends AppCompatActivity {
             mPosition.setText(text[Integer.parseInt(message)]);
         }
 
-
-
-
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -165,6 +162,7 @@ public class FullRecipe extends AppCompatActivity {
             _carb = res.getStringArray(R.array.drink_carb);
             _protein = res.getStringArray(R.array.drink_protein);
         }
+
         switch (item.getItemId()){
             case R.id.action_status:
                 Intent intent = new Intent(this, nutrition_information.class);
