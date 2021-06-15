@@ -29,7 +29,13 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name=".nutrition_information" />
+        <activity android:name=".nutrition_information"
+            android:label="Nutrition Information"
+            android:parentActivityName=".MainActivity">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity"/>
+        </activity>
         <activity
             android:name=".FullRecipe"
             android:parentActivityName=".MainActivity" />
